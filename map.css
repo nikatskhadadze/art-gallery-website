@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(assets/mobile/image-map.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+}
+
+.btn-div{
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+}
+.btn1{
+    background: #151515;
+    color:  #FFFFFF;
+    Width:204px;
+    Height:72px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+.arrow-right{
+    Width:56px;
+    Height:72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D5966C;
+}
+/* main */ /*main*/
+main{
+    width: 100%;
+    margin-top: 478px;
+    background: #151515   
+}
+.div-main{
+    padding: 48px 16px 48px 16px; 
+}
+.location{
+    font-family: 'Big Shoulders Display';
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    color: #FFFFFF;
+    gap: 20px;
+    padding-bottom: 48px;
+}
+.street{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+}
+.located{
+    font-family: 'Outfit' ;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+.short-text{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 16px;
+}
+footer{
+    background: #D5966C;
+}
+.foot-logo{
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-bottom: 38px; 
+}
+.text{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 38px;
+}
+.foot-div{
+   padding-left: 32px;
+   display: flex;
+   justify-content: start;
+   gap: 20px;
+}

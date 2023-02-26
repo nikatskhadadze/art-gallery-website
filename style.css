@@ -66,7 +66,7 @@ header{
     padding-left: 16px;
 }
 .header-text{
-    font-family: 'Outfit'sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
@@ -95,6 +95,7 @@ a{
     justify-content: center;
     align-items: center;
     border: none;
+    cursor: pointer;
 }
 .arrow-right{
     Width:56px;
@@ -112,8 +113,10 @@ main{
     grid-template-columns: auto;
     gap: 16px;
     margin-top: 120px;
-    grid-template-rows: 329px 218px 480px 200px 293px;
-    
+    grid-template-rows: 329px 218px 480px 200px 293px; 
+}
+.img1{
+    padding-left: 16px;
 }
 .h1-day{
     font-family: 'Big Shoulders Display', cursive;
@@ -122,17 +125,28 @@ main{
     line-height: 45px;
     text-transform: uppercase;
     color:  #151515;
+    padding-left: 16px;
 }
 .p-day{
     padding-top: 21px;
-    font-family: 'Outfit'sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
     color: #444444;
+    padding-left: 16px;
+}
+.img2{
+    padding-left: 16px;
+}
+.img3{
+    padding-left: 16px; 
 }
 .come{
+    margin-left: 16px;
     background: #151515;
+    
+    
 }
 .h1-come{
     color: #FFFFFF;
@@ -146,7 +160,7 @@ main{
 }
 .p-come{
     padding: 0px 24px 47px;
-    font-family: 'Outfit' sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
@@ -158,12 +172,12 @@ footer{
     background-color: #151515;
     height: 336px;
 }
-.footer-icon{
+.footer-logo{
     padding:48px 235.95px 38px 32px ;  
 }
 .p-footer{
     padding: 0px 32px 40px ;
-    font-family: 'Outfit'sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
